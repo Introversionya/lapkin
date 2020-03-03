@@ -55,5 +55,7 @@ h1 {
 }
 
 .man {
-    background: url(../img/man.jpg);
+    background: url(../img/man.jpg) no-repeat center top;
+    width: 423px;
+    height: 583px;
 }
