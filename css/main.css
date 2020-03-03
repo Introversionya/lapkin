@@ -20,6 +20,14 @@ h1 {
     margin: 0 auto;
 }
 
+h3 {
+    color: #737373;
+    font-size: 18px;
+    text-transform: none;
+    margin-top: 40px;
+    margin-bottom: 33px;
+}
+
 .header {
     background: #30697d url(../img/bg.jpg) no-repeat center top / cover;
     color: #fff;
@@ -58,4 +66,35 @@ h1 {
     background: url(../img/man.jpg) no-repeat center top;
     width: 423px;
     height: 583px;
+}
+
+.text {
+    width: 670px;
+}
+
+.text p {
+    color: #7f7f7f;
+    font-size: 16px;
+    line-height: 1.66em;
+}
+
+.btn {
+    color: #fff;
+    background: #ff2b4a;
+    font-size: 16px;
+    width: 202px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 60px;
+}
+
+.about {
+    padding-top: 114px;
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
 }
