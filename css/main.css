@@ -123,6 +123,7 @@ h3 {
 
 .process {
     background: #f6f6f6;
+    padding-bottom: 116px;
 }
 
 .steps {
@@ -159,5 +160,32 @@ h3 {
 
 .footer {
     background: #222222;
-    
+    color: #9c9c9c;
+    font-size: 12px;
+    padding-top: 62px;
+    text-align: center;
+    padding-bottom: 51px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.socials a {
+    color: #9c9c9c;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+.socials li:last-child a {
+    margin-right: 0px;
+}
+
+.socials a:hover {
+    color: #ff2b4a;
+}
+
+.footer-text {
+   
 }
