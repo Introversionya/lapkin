@@ -203,11 +203,10 @@ h3 {
 }
 
 .socials img {
-    width: 12px;
+    width: 23px;
 }
 
 .socials a {
-    color: #9c9c9c;
     font-size: 14px;
     margin-right: 25px;
 }
@@ -216,9 +215,11 @@ h3 {
     margin-right: 0px;
 }
 
-.socials a:hover {
-    
+.socials img:hover {
+    border-radius: 3px;
 }
+
+
 
 @media screen and (max-width: 1200px) {
     .container {
