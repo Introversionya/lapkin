@@ -43,7 +43,7 @@ h3 {
 .header {
     background: #30697d url(../img/bg.jpg) no-repeat center top / cover;
     color: #fff;
-    padding-bottom: 426px;
+    padding-bottom: 210px;
     padding-top: 90px;
 }
 
@@ -60,6 +60,9 @@ h3 {
 
 .mail:hover {
    color: #ff2b4a;
+   -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .nav {
@@ -68,8 +71,14 @@ h3 {
     align-items: center;
 }
 
+.nav img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 .offer {
-    margin-top: 293px;
+    margin-top: 185px;
     text-align: center;
     letter-spacing: 0.1em;
 }
@@ -103,6 +112,10 @@ h3 {
     text-align: center;
     padding: 12px 0;
     margin-top: 60px;
+}
+
+.btn:hover {
+    background: #222222;
 }
 
 .about {
@@ -143,6 +156,19 @@ h3 {
     color: #fff;
 }
 
+.steps li:hover {
+    box-shadow:
+    1px 1px #808080,
+    2px 2px #808080,
+    3px 3px #808080,
+    4px 4px #808080,
+    5px 5px #808080,
+    6px 6px #808080,
+    7px 7px #808080;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
 .steps li:nth-child(2) {
     background: #835aeb;
 }
@@ -176,6 +202,10 @@ h3 {
     justify-content: center;
 }
 
+.socials img {
+    width: 12px;
+}
+
 .socials a {
     color: #9c9c9c;
     font-size: 14px;
@@ -187,11 +217,7 @@ h3 {
 }
 
 .socials a:hover {
-    color: #ff2b4a;
-}
-
-.footer-text {
-   
+    
 }
 
 @media screen and (max-width: 1200px) {
