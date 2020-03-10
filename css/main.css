@@ -47,6 +47,10 @@ h3 {
     padding-top: 90px;
 }
 
+.offer:hover {
+    color: black;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -86,6 +90,16 @@ h3 {
 .offer p {
     font-size: 25px;
     color: #d0d9dd;
+}
+
+.offer h1 {
+    text-shadow: 0px 3px 0px #b2a98f,
+
+0px 14px 10px rgba(0,0,0,0.15),
+
+0px 24px 2px rgba(0,0,0,0.1),
+
+0px 34px 30px rgba(0,0,0,0.1);
 }
 
 .man {
@@ -217,6 +231,7 @@ h3 {
 
 .socials img:hover {
     border-radius: 3px;
+    border-bottom: 3px solid aliceblue;
 }
 
 
